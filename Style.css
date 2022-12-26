@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 1em;
+    background-color: rgb(218, 214, 246);
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}   
+#mainContainer{
+    height: 40em;
+    width: 30em;
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px;
+    
+}
+#taskContainer{
+    height: 30em;
+}
+h5{
+    font-size: medium;
+    display: flex;
+    justify-content: space-around;
+}
+#title{
+    text-align: center;
+    color: rgb(166, 159, 214);
+}
+#form{
+    text-align: center;
+}
+#textInput{
+    border-radius: 5px;
+    padding: 5px;
+    border: solid rgb(178, 174, 205) 1px;
+}
+#btn{
+    height: 30px;
+    width: 60px;
+    background-color: rgb(166, 159, 214);
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.eliminateBTN{
+    height: 27px;
+    width: 70px;
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
